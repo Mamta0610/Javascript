@@ -1,0 +1,18 @@
+<html>
+<body>
+<script>
+//callback function is a function passed into another function as an argument
+function heelo(name, callback){
+console.log("hiii " + "  " + name);
+callback();
+}
+
+//callback function
+function doCall(){
+console.log("I am a callback functionn... ");
+}
+//pass function as an argument
+heelo("Mamta" , doCall);
+</script>
+</body>
+</html>
